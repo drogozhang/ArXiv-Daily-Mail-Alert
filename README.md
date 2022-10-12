@@ -9,6 +9,10 @@ Daily ArXiv paper notification, customized keywords / authors filter.
 #### Step 1. Requirements
 
 ```shell
+# python version
+# python 3.7.3
+
+# external libs?
 feedparser==5.2.1
 ```
 
@@ -17,6 +21,10 @@ feedparser==5.2.1
 #### Step 2. Set up the config.
 
 In the config file `config-demo.yaml`, set up the sender, password, and receivers for mail notifications.
+
+*Better use some mails that are easy to log in as the senders. (gmail may take lots of steps, I didn't test)*
+
+------
 
 Set the keywords, categories, and authors that you want to keep track of.
 
