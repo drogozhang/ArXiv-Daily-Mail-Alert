@@ -28,7 +28,7 @@ Set the keywords, categories, and authors that you want to keep track of.
 
 
 
-Note that only papers that **met all above three factors** will be returned. Hence, to follow specific authors not limited to any keyword, simply leave the `keywords` list in the config.yaml blank. Similarly, to follow specific topics not limited to any author, leave the `authors` list bank.
+Note that only papers that **meet all above three requirements** will be returned. Hence, to follow specific authors not limited to any keyword, simply leave the `keywords` list in the config.yaml blank. Similarly, to follow specific topics not limited to any author, leave the `authors` list bank.
 
 So, you can make **two yamls** for separate authors and keywords following.
 
