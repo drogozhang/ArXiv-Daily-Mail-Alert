@@ -16,15 +16,15 @@ feedparser==5.2.1
 
 #### Step 2. Set up the config.
 
-In the demo.config, set up the sender, password, and receivers for mail notifications.
+In the config file `config-demo.yaml`, set up the sender, password, and receivers for mail notifications.
 
-More importantly, set the keywords, categories, and authors that you want to keep track of.
+Set the keywords, categories, and authors that you want to keep track of.
 
-**keywords**: return paper's **title** OR **abstract** contains at least one keyword of interest
+**keywords**: return papers of which **titles** OR **abstracts** contain at least one keyword of interest
 
-**authors**: return paper's author list contains at least one author of interest
+**authors**: return papers of which author lists contain at least one author of interest
 
-**categories**: return paper at least belongs to one of the named categories
+**categories**: return papers which at least belong to one of the named categories
 
 
 
@@ -37,7 +37,7 @@ So, you can make **two yamls** for separate authors and keywords following.
 #### Step 3. Run
 
 ```shell
-python --config_path [CONFIG_PATH]
+python arxiv_alert.py --config_path [CONFIG_PATH]
 ```
 
 
