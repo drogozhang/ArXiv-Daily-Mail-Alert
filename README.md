@@ -9,9 +9,7 @@ Daily ArXiv paper notification, customized keywords / authors filter.
 #### Step 1. Requirements
 
 ```
-
 feedparser==5.2.1
-
 ```
 
 
