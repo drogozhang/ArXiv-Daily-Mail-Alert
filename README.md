@@ -1,2 +1,2 @@
-# AirXiv-Daily-Mail-Alert
-Customized keywords and authors filtered search and email notification
+# ArXiv-Daily-Mail-Alert
+Daily ArXiv paper notification, customized keywords / authors filter.
