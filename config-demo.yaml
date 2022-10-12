@@ -1,0 +1,10 @@
+mail_title: 'Daily ArXiv Mail Alert'
+smtp_host: 'smtp.163.com'
+smtp_port: 465
+sender: ***@163.com
+sender_password: ******
+receivers: ['***@gmail.com', '***@163.com']
+categories: ['cs.ai', 'cs.cv', 'cs.cl', 'cs.lg', 'stat.ml']    
+keywords: ['diffusion', 'image generation']
+authors: []
+max_results: 50
