@@ -16,9 +16,9 @@ feedparser==5.2.1
 
 #### Step 2. Set up the config.
 
-In the demo.config, set up the sender, password, and retriever for mail notifications.
+In the demo.config, set up the sender, password, and receivers for mail notifications.
 
-More importantly, you can set the keywords, categories, and authors that you want to keep track of.
+More importantly, set the keywords, categories, and authors that you want to keep track of.
 
 **keywords**: return paper's **title** OR **abstract** contains at least one keyword of interest
 
