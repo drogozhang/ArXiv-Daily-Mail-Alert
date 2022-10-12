@@ -47,7 +47,7 @@ python arxiv_alert.py --config_path [CONFIG_PATH]
 Combined with [crontab](https://www.ibm.com/docs/en/aix/7.2?topic=c-crontab-command), you will be notified daily.
 
 ```shell
-# e.g. every 9 am at workday send me two papers alerts, one contains authors of interest and another contains keywords of interest.
+# e.g. every 9 am at workday send me two papers alerts, one for authors and one for keywords.
 0 9 * * 1-5 cd ~/workspaces/tools/ArXiv-Daily-Mail-Alert/ && ~/anaconda3/bin/python arxiv_alert.py --config_path config-author.yaml
 0 9 * * 1-5 cd ~/workspaces/tools/ArXiv-Daily-Mail-Alert/ && ~/anaconda3/bin/python arxiv_alert.py --config_path config-keyword.yaml
 ```
